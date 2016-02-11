@@ -1350,7 +1350,7 @@ textarea,textarea[type="text"] {
 
 .page-header {
     height: 500px;
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/bill.jpg") no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("http://disputebills.com/wp-content/themes/disputebills-theme/assets/images/bill.jpg") no-repeat center;
     background-size: cover;
     text-align: center;
     position: relative;
@@ -1617,19 +1617,19 @@ textarea,textarea[type="text"] {
     }
 }
 
-.testimonial-block li cite {
+.testimonial-block li blockquote {
     display: inline-block;
     width: 100%;
     margin-bottom: 15px;
     margin-bottom: 1rem
 }
 
-.testimonial-block li cite h6 {
+.testimonial-block li blockquote h6 {
     margin: 12px 0 0;
     margin: .8rem 0 0
 }
 
-.testimonial-block li cite p {
+.testimonial-block li blockquote p {
     font-size: 12px;
     font-size: .8rem
 }
