@@ -1,12 +1,12 @@
 html {
-    box-sizing: border-box
+    box-sizing: border-box;
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
-    -webkit-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 *,*::after,*::before {
-    box-sizing: inherit
+    box-sizing: inherit;
 }
 
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
@@ -23,34 +23,34 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 }
 
 body {
-    line-height: 1
+    line-height: 1;
 }
 
 ol,ul {
-    list-style: none
+    list-style: none;
 }
 
 blockquote,q {
-    quotes: none
+    quotes: none;
 }
 
 blockquote:before,blockquote:after {
     content: "";
-    content: none
+    content: none;
 }
 
 q:before,q:after {
     content: "";
-    content: none
+    content: none;
 }
 
 table {
     border-collapse: collapse;
-    border-spacing: 0
+    border-spacing: 0;
 }
 
 img {
-    width: 100%
+    width: 100%;
 }
 
 .horizontal-divider {
@@ -87,84 +87,84 @@ h1,h2,h3,h4,h5,h6 {
 
 h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {
     border-bottom: 2px solid transparent;
-    font-weight: 700
+    font-weight: 700;
 }
 
 h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover {
-    border-bottom: 2px solid #0c6793
+    border-bottom: 2px solid #0c6793;
 }
 
 h1 {
-    font-size: 37.5px
+    font-size: 37.5px;
 }
 
 @media screen and (min-width:45em) {
     h1 {
-        font-size: 60px
+        font-size: 60px;
     }
 }
 
 h2 {
-    font-size: 30px
+    font-size: 30px;
 }
 
 @media screen and (min-width:45em) {
     h2 {
-        font-size: 45px
+        font-size: 45px;
     }
 }
 
 h3 {
-    font-size: 21.75px
+    font-size: 21.75px;
 }
 
 @media screen and (min-width:45em) {
     h3 {
-        font-size: 33.75px
+        font-size: 33.75px;
     }
 }
 
 h4 {
-    font-size: 18.75px
+    font-size: 18.75px;
 }
 
 @media screen and (min-width:45em) {
     h4 {
-        font-size: 20.25px
+        font-size: 20.25px;
     }
 }
 
 h5 {
-    font-size: 15px
+    font-size: 15px;
 }
 
 @media screen and (min-width:45em) {
     h5 {
-        font-size: 18.75px
+        font-size: 18.75px;
     }
 }
 
 h6 {
-    font-size: 13px
+    font-size: 13px;
 }
 
 @media screen and (min-width:45em) {
     h6 {
-        font-size: 15px
+        font-size: 15px;
     }
 }
 
 h1 {
-    color: #fff
+    color: #fff;
 }
 
 h5 {
     color: #0f92cd;
-    font-weight: 700
+    font-weight: 700;
 }
 
 h6 {
-    font-weight: 700
+    font-weight: 700;
 }
 
 p {
@@ -178,11 +178,11 @@ p {
     margin-bottom: 12px;
     margin-bottom: .8rem;
     line-height: 22.5px;
-    color: #9b9b9b
+    color: #9b9b9b;
 }
 
 p:last-child {
-    margin-bottom: 0
+    margin-bottom: 0;
 }
 
 li,dd {
@@ -192,7 +192,7 @@ li,dd {
     margin-top: 3px;
     margin-top: .2rem;
     line-height: 22.5px;
-    color: #9b9b9b
+    color: #9b9b9b;
 }
 
 a {
@@ -202,34 +202,34 @@ a {
     font-style: normal;
     font-weight: normal;
     transition: all .3s ease-in-out;
-    text-decoration: none
+    text-decoration: none;
 }
 
 a:hover {
-    color: #0c6793;
-    text-decoration: none
+    color: #0c6793;;
+    text-decoration: none;
 }
 
 a:active,a:focus {
-    outline: 0
+    outline: 0;
 }
 
 strong {
-    font-weight: 700
+    font-weight: 700;
 }
 
 i,em {
     font-style: italic;
-    font-weight: 200
+    font-weight: 200;
 }
 
 blockquote {
-    line-height: 1.5
+    line-height: 1.5;
 }
 
 .subheader {
-    font-size: 16px;
-    font-size: 1.06667rem
+    font-size: 16px;;
+    font-size: 1.06667rem;
 }
 
 @media screen and (min-width:45em) {
@@ -237,7 +237,7 @@ blockquote {
         font-size: 18px;
         font-size: 1.2rem;
         line-height: 28.5px;
-        line-height: 1.9rem
+        line-height: 1.9rem;
     }
 }
 
@@ -272,39 +272,39 @@ blockquote {
     letter-spacing: 1px;
     width: 180px;
     text-align: center;
-    -webkit-appearance: none
+    -webkit-appearance: none;
 }
 
 .button-default text {
     align: center;
-    decoration: none
+    decoration: none;
 }
 
 .button-default:hover {
-    cursor: pointer
+    cursor: pointer;
 }
 
 .button-default:focus {
     border: 0;
     outline: 0;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .button-default:hover {
     background-color: #0c6793;
     border: 1px solid #0c6793;
     color: #fff;
-    opacity: 1
+    opacity: 1;
 }
 
 .button-default:active {
     background-color: #0c6793;
     color: #fefefe;
-    border: 1px solid #0c6793
+    border: 1px solid #0c6793;
 }
 
 .button-default:focus {
-    border: 1px solid #0c6793
+    border: 1px solid #0c6793;
 }
 
 .link-default {
@@ -316,11 +316,11 @@ blockquote {
     color: #0f92cd;
     text-transform: uppercase;
     transition: all .3s ease-in-out;
-    display: inline-block
+    display: inline-block;
 }
 
 .link-default:hover {
-    color: #0c6793
+    color: #0c6793;
 }
 
 .button-blue-base {
@@ -344,29 +344,29 @@ blockquote {
     letter-spacing: 1px;
     width: 180px;
     text-align: center;
-    -webkit-appearance: none
+    -webkit-appearance: none;
 }
 
 .button-blue-base text {
     align: center;
-    decoration: none
+    decoration: none;
 }
 
 .button-blue-base:hover {
-    cursor: pointer
+    cursor: pointer;
 }
 
 .button-blue-base:focus {
     border: 0;
     outline: 0;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .button-blue-base:hover {
     background-color: #0c6793;
     border: 1px solid #0c6793;
     color: #fff;
-    opacity: 1
+    opacity: 1;
 }
 
 .button-blue-base:active {
