@@ -1,5 +1,8 @@
 html {
     box-sizing: border-box
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%
 }
 
 *,*::after,*::before {
@@ -54,10 +57,7 @@ img {
     border-bottom: 1px solid #9b9b9b
 }
 
-html {
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
-}
+
 
 body {
     background-color: #fff !important;
