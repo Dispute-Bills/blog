@@ -1617,19 +1617,19 @@ textarea,textarea[type="text"] {
     }
 }
 
-.testimonial-block li blockquote {
+.testimonial-block li cite {
     display: inline-block;
     width: 100%;
     margin-bottom: 15px;
     margin-bottom: 1rem
 }
 
-.testimonial-block li blockquote h6 {
+.testimonial-block li cite h6 {
     margin: 12px 0 0;
     margin: .8rem 0 0
 }
 
-.testimonial-block li blockquote p {
+.testimonial-block li cite p {
     font-size: 12px;
     font-size: .8rem
 }
