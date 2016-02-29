@@ -5,7 +5,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule . / [L,R=301]
 
 # Sitemap
-Redirect 301 /sitemap/ /
+Redirect 301 /sitemap /
 
 #About 
 Redirect 301 /who-is-dispute about
