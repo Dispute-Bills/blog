@@ -2,7 +2,7 @@
 /**
  * Dispute Bills Redirects
  */
-function bw_redirect_old_tags_cats()
+function bw_redirect_old_dispute_urls()
 	{
 	global $post;
 	if (is_tag(array( // http://http://disputebills.com/tag/{slug}
@@ -44,4 +44,4 @@ function bw_redirect_old_tags_cats()
 		  exit;
 		}
 	}
-add_action('template_redirect', 'bw_redirect_old_tags_cats', 1);
+add_action('template_redirect', 'bw_redirect_old_dispute_urls', 1);
