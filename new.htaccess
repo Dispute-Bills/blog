@@ -79,6 +79,12 @@ Redirect 301 /full-width /
 Redirect 301 /download /
 
 
+
+
+
+        
+        
+
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
