@@ -1,8 +1,8 @@
 <?php
-/**
- * Redirect old tags, categories, and authors to blog ( http://disputebills.com/blog )
- */ 
-if (is_tag(array( // http://http://disputebills.com/tag/{slug}
+
+global $post;
+
+if (is_tag( array( // http://http://disputebills.com/tag/{slug}
 	6,  // advocate
 	7,  // charity
 	8,  // crowdfunding
@@ -17,29 +17,24 @@ if (is_tag(array( // http://http://disputebills.com/tag/{slug}
 	17, // negotiate-medical-bills
 	18  // personal-finance	
 )) || is_category(array( // http://http://disputebills.com/category/{slug}
-	1,
-	4,
-	5
-)) || is_author()) {
-	wp_redirect(home_url('/blog') , 301);
+	1,  // uncategorized
+	4,  // company-news
+	5   // consumer-tips 
+)) || is_author()) { // http://http://disputebills.com/author/{slug}
+	wp_redirect(home_url('/blog') , 301); // Redirect to blog ( http://disputebills.com/blog )
 	exit;
-}
-
-// Redirect 403 error pages to homepage
-if (!is_home() && is_403()) {
-	wp_redirect(home_url() , 301);
+} elseif ( get_permalink( get_page_by_path( 'glossary' ) ) || get_permalink( get_page_by_path( 'glossary/aacy' ) ) ) {
+	// Redirect glossary to single aayc post
+	wp_redirect(home_url('/dispute-partners-with-the-american-association-of-caregiving-youth/') , 301);
 	exit;
-}
-
-// Redirect searches to homepage
-if (is_search()) {
-	wp_redirect(home_url() , 301);
-	exit;
-}
-
-// Redirect attachment pages to parent posts
-global $post;
-if (is_attachment() && isset($post->post_parent) && is_numeric($post->post_parent) && ($post->post_parent != 0)) {
+}  elseif (is_attachment() && isset($post->post_parent) && is_numeric($post->post_parent) && ($post->post_parent != 0)) { 
+	// Redirect attachment pages to parent posts
 	wp_redirect(get_permalink($post->post_parent) , 301);
+} else ( is_403() || is_search() || is_404() ) { 
+	wp_safe_redirect(home_url() ); // Redirect the rest to homepage
+	exit;
 }
-        
+
+
+
+
